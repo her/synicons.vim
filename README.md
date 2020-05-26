@@ -2,7 +2,7 @@
 
 synicons.vim adds highlighting for vim-devicons in NERDTree.
 
-<img width="480" alt="synicons" src="https://user-images.githubusercontent.com/10278096/82868128-f21bea00-9ee0-11ea-98a4-8c6cd1d4ccae.png">
+<img width="480" alt="synicons" src="https://user-images.githubusercontent.com/10278096/82868473-8d14c400-9ee1-11ea-9af8-22d0c8ee5716.png">
 
 #### Configuration
 
