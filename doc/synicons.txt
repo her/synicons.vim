@@ -1,10 +1,37 @@
-*synicons.vim* Syntax Highlighting for your Devicons in NERDTree
+*synicons.txt*     Vim Nvim    Last change: 2020 May 24
 
-Author: Melanie Berkley <http://berkley.io>
-Licence: BSD
 
-INTRODUCTION                      *synicons*
+INTRODUCTION                                           *synicons*
 
-This adds syntax highlighting to Devicons in NERDTree.
+synicons.vim adds highlighting for vim-devicons in NERDTree.
+
+==============================================================================
+SYNICONS-HIGHLIGHT-GROUPS                      *synicons-highlight-groups*
+
+synicons.vim creates the following groups that can be highlighted and are by
+default configured with the colors below using |ctermfg| and |guifg|.
+
+                                                  *synicons-hl-DevIconRed*
+DevIconRed        `ctermfg=1` `guifg=#800000`
+                                                *synicons-hl-DevIconGreen*
+DevIconGreen      `ctermfg=2` `guifg=#008000`
+                                               *synicons-hl-DevIconYellow*
+DevIconYellow     `ctermfg=3` `guifg=#808000`
+                                                 *synicons-hl-DevIconBlue*
+DevIconBlue       `ctermfg=4` `guifg=#000080`
+                                              *synicons-hl-DevIconMagenta*
+DevIconMagenta    `ctermfg=5` `guifg=#800080`
+                                                 *synicons-hl-DevIconCyan*
+DevIconCyan       `ctermfg=6` `guifg=#008080`
+                                                *synicons-hl-DevIconWhite*
+DevIconWhite      `ctermfg=7` `guifg=#FFFFFF`
+
+
+You can change the default colors by setting the highlight groups
+in your 'vimrc' or colorscheme.
+
+Example:
+
+`:hi DevIconRed ctermfg=1 guifg=#FF0000`
 
 vim:tw=78:ts=8:noet:ft=help:norl:
