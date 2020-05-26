@@ -4,7 +4,17 @@ synicons.vim adds highlighting for vim-devicons in NERDTree.
 
 <img width="480" alt="synicons" src="https://user-images.githubusercontent.com/10278096/82868473-8d14c400-9ee1-11ea-9af8-22d0c8ee5716.png">
 
-#### Configuration
+### Installation
+
+##### [vim-plug](https://github.com/junegunn/vim-plug)
+Add this to your `.vimrc`
+```
+Plug `her/synicons.vim`
+```
+
+Install with `:PlugInstall`
+
+### Configuration
 
 You can change the default colors by setting the highlight groups
 in your vimrc or colorscheme.
